@@ -173,7 +173,7 @@ ClassComponent.prototype.isReactComponent = {};
 比如如下信息就不包括在`JSX`中：
 
 - 组件在更新中的`优先级`
-- 组件的`state`
+- 组件的`state` （ jsx 好像存在于 jsx ？？）
 - 组件被打上的用于**Renderer**的`标记`
 
 这些内容都包含在`Fiber节点`中。
